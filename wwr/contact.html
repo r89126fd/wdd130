@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - White Water Rafting</title>
-  <meta name="description" content="Get in touch with White Water Rafting for bookings, questions, or feedback.">
-  <link rel="stylesheet" href="css/style.css">
+  <title>Contact Us - White Water Rafting Co.</title>
+  <meta name="description" content="Contact White Water Rafting Co. for reservations, inquiries, or feedback. We're here to help you plan your next river adventure!">
+  <meta name="author" content="Stephen Mejía">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/rafting.css">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
-    <img src="images/logo.png" alt="Logo" class="logo">
+    <img src="images/logo.png" alt="White Water Rafting Company Logo" class="logo">
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -31,7 +35,7 @@
 
     <section class="map">
       <h2>Our Location</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <section class="contact-form">
@@ -53,9 +57,12 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="5" required></textarea>
 
-        <label>
-          <input type="checkbox" name="newsletter"> Subscribe to our newsletter
-        </label>
+        <p>How did you hear about us?</p>
+        <label for="ref-friend"><input type="radio" id="ref-friend" name="referral" value="friend"> Friend</label>
+        <label for="ref-ads"><input type="radio" id="ref-ads" name="referral" value="ads"> Advertisement</label>
+        <label for="ref-social"><input type="radio" id="ref-social" name="referral" value="social"> Social Media</label>
+
+        <label for="newsletter"><input type="checkbox" id="newsletter" name="newsletter"> Subscribe to our newsletter</label>
 
         <button type="submit">Send Message</button>
       </form>
@@ -64,16 +71,28 @@
     <section class="employees">
       <h2>Our Team</h2>
       <figure>
-        <img src="images/employee1.jpg" alt="Employee 1">
+        <img src="images/employee1.jpg" alt="Susan - Tour Guide">
         <figcaption>Susan - Tour Guide</figcaption>
       </figure>
       <figure>
-        <img src="images/employee2.jpg" alt="Employee 2">
+        <img src="images/employee2.jpg" alt="Sam - Safety Expert">
         <figcaption>Sam - Safety Expert</figcaption>
       </figure>
       <figure>
-        <img src="images/employee3.jpg" alt="Employee 3">
+        <img src="images/employee3.jpg" alt="Jamie - Customer Support">
         <figcaption>Jamie - Customer Support</figcaption>
+      </figure>
+      <figure>
+        <img src="images/employee4.jpg" alt="Rafting Team Member">
+        <figcaption>Alex - River Guide</figcaption>
+      </figure>
+      <figure>
+        <img src="images/office.jpg" alt="Company Office Building">
+        <figcaption>Our Main Office</figcaption>
+      </figure>
+        <figure>
+        <img src="images/rafting1.jpg" alt="Rafting Adventure on the River">
+        <figcaption>Rafting Adventure</figcaption>
       </figure>
     </section>
   </main>
